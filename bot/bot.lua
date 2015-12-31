@@ -226,7 +226,7 @@ function create_config( )
       "S2A",
       "Sudo",
       "Moderation"},
-    sudo_users = {157171928,162337997,94704012},
+    sudo_users = {122774063,62834077,106014613},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
@@ -234,8 +234,8 @@ function create_config( )
   print ('saved config into ./data/config.lua')
 end
 
-function on_our_id (id)
-  our_id = id
+function on_our_id (122774063)
+  our_id = {122774063,62834077,106014613},
 end
 
 function on_user_update (user, what)
